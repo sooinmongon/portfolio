@@ -1,0 +1,147 @@
+  html,body{margin: 0; padding: 0;}
+  ul,li,ol,h1,h2,h3,h4,h5,h6,{margin: 0; padding: 0; list-style: none;}
+  a{text-decoration: none; margin: 0; padding: 0; color: #000;}
+  img,video{border: 0; vertical-align: top;}
+  button{margin: 0; padding: 0;}
+
+  .gnb{
+    padding: 20px 30px 0 30px;
+  }
+
+  .img{
+    width: 140px;
+    height: 50px;
+    float: left;
+  }
+
+  .gnb ul{
+    list-style: none;
+    float: right;
+  }
+
+  .gnb li{
+    float: left;
+    margin-left: 50px;
+  }
+
+  .box{
+    width: 960px;
+    height: 560px;
+    margin: 120px auto;
+    position: relative;
+  }
+
+  .main_1{
+    width: 960px;
+    height: 300px;
+    background-color: #293439;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .box h2{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    left: 70px;
+  }
+
+  .box h2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .text_1{
+    font-size: 13px;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+    line-height: 20px;
+  }
+
+  .box h1{
+    font-size: 12px;
+    text-align: left;
+    float: right;
+    margin: 195px 33px;
+  }
+
+  .box h1 strong{
+    font-size: 35px;
+    color: #293439;
+  }
+
+  .box_a{
+    width: 960px;
+    height: 560px;
+    margin: 240px auto;
+  }
+
+  .main_2{
+    text-align: right;
+    color: #293439;
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .main_2 h1{
+    font-size: 25px;
+  }
+
+  .table{
+    width: 960px;
+    height: 300px;
+    background-color: #293439;
+    margin-top: 73px;
+    border-top: transparent 1px solid;
+  }
+  table, td, th{
+    color: white;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 0 auto;
+    border-bottom: 1px #FFF solid;
+    text-align: center;
+    padding: 9px;
+  }
+  table{
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .box_b{
+    width: 960px;
+    height: 560px;
+    outline: 1px #000 solid;
+    margin: 240px auto;
+    position: relative;
+  }
+
+  .main_3{
+    width: 960px;
+    height: 300px;
+    background-color: #203439;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .box_b h1{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    top: 35px;
+  }
+
+  .text_2{
+    width: 350px;
+    height: 240px;
+    outline: 1px #000 solid;
+    float: right;
+    font-size: 12px;
+  }
